@@ -2330,7 +2330,7 @@ a {
 
 .scrolled a.nav-link {
     padding: 18px 28px !important;
-    color:#343a40 important;
+    color:#343a40 !important;
 }
 
 .scrolled .text-white {
