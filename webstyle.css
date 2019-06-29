@@ -1074,35 +1074,110 @@ p {
     color:#000;
 }
 
-/*Box Heights*/ 
+/*Heights*/
+.h_10 {
+    height: 10px;
+}
+
+.h_20 {
+    height: 20px;
+}
+
+.h_30 {
+    height: 30px;
+}
+
+.h_40 {
+    height: 40px;
+}
+
+.h_50 {
+    height: 50px;
+}
+
+.h_100 {
+    height: 100px;
+}
+
+.h_200 {
+    height: 200px;
+}
+
+.h_300 {
+    height: 300px;
+}   
+
+.h_400 {
+    height: 400px;
+}   
+
+.h_500 {
+    height: 500px;
+}
+
+.h_600 {
+    height: 600px;
+}
 
 .box_vheight_100,
+.h_100,
+.vh_100,
 .box_height_100_ {
     height: 100vh; 
 }
 
+.mi_h_100,
 .box_height_100 {
     min-height: 100px;
 }
 
+.mi_h_200,
 .box_height_200 {
     min-height: 200px;
 }
 
+.mi_h_300,
 .box_height_300 {
     min-height: 300px;
 }   
 
+.mi_h_400,
 .box_height_400 {
     min-height: 400px;
 }   
 
+.mi_h_500,
 .box_height_500 {
     min-height: 500px;
 }
 
+.mi_h_600,
 .box_height_600 {
     min-height: 600px;
+}
+
+.mx_h_100 {
+    max-height: 100px;
+}
+
+.mx_h_200 {
+    max-height: 200px;
+}
+
+.mx_h_300 {
+    max-height: 300px;
+}   
+
+.mx_h_400 {
+    max-height: 400px;
+}   
+
+.mx_h_500 {
+    max-height: 500px;
+}
+
+.mx_h_600 {
+    max-height: 600px;
 }
 
 .box_scroll_hidden {
