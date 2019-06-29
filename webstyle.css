@@ -17,6 +17,11 @@ p {
     margin-bottom: 20px; 
 }
 
+.link,
+a {
+    color: #007bff;
+}
+
 .trans_02{
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
@@ -1648,7 +1653,7 @@ p {
 }
 
 .accordion_design1 .card.active .card-header {
-	background-image: linear-gradient(to right, #ff9671, #ff8e66, #ff865b, #ff7e4f, #ff7544);
+	background-color: #007bff;
 	color:#ffffff;
 }
 
@@ -1668,7 +1673,7 @@ p {
 }
 
 .accordion_design2 .card-header {
-    background: #FF6F91;
+    background: #007bff;
 }
 
 .accordion_design2 .card-header a {
@@ -1698,7 +1703,7 @@ p {
 }
 
 .accordion_design3 .card-header {
-	background: #456EDA;
+	background: #007bff;
 }
 
 .accordion_design3 .card-header a {
@@ -1729,7 +1734,7 @@ p {
 .card_with_icon1 .card-icon {
     width: 80px;
     height: 80px;
-    background: #456EDA;
+    background: #007bff;
     font-size: 30px;
     left: 20px;
     top: 50%; 
@@ -1759,13 +1764,13 @@ p {
 }
 
 .card_with_icon1:hover {
-    background: #456EDA;
+    background: #007bff;
     color: #ffffff;
 }
 
 .card_with_icon1:hover .card-icon {
     background: #ffffff;
-    color:  #456EDA !important;
+    color:  #007bff !important;
 }
 
 /* Card with Icon 2 */
@@ -1779,26 +1784,26 @@ p {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
-    border-color: #FF6F91;
+    border-color: #007bff;
 }
 
 .card_with_icon2 .card-icon {
     width: 80px;
     height: 80px;
-    background: #FF6F91;
+    background: #007bff;
     font-size: 30px;
 }
 
 /*Hover Effect*/
 .card_with_icon2:hover {
-	background: #FF6F91;
+	background: #007bff;
 	color: #ffffff;
-	border-color: #FF6F91;
+	border-color: #007bff;
 }
 
 .card_with_icon2:hover .card-icon {
 	background: #fff;
-	color:  #FF6F91 !important;
+	color:  #007bff !important;
 }
 
 .card_with_icon2:hover a {
@@ -1814,7 +1819,7 @@ p {
 .card_with_icon3 .card-icon {
     width: 80px;
     height: 80px;
-    background: #FF6F91;
+    background: #007bff;
     font-size: 30px;
 }
 
@@ -1831,7 +1836,7 @@ p {
 .testimonials_card1 .card-icon {
 	width: 40px;
     height: 40px;
-    background: #FF6F91;
+    background: #007bff;
     font-size: 16px;
     top: 89px;
     right: 50%;
@@ -1851,7 +1856,7 @@ p {
 .testimonials_card2 .card-icon {
     top: 37px;
     left: 50%;
-    color: #456EDA;
+    color: #007bff;
     font-size: 250px;
     opacity: 0.1;
     z-index: 0;
@@ -1873,7 +1878,7 @@ p {
 .testimonials_card3 .card-icon {
     top: 17px;
     left: 25px;
-    color: #456EDA;
+    color: #007bff;
     font-size: 100px;
     opacity: 0.1;
     z-index: 0;
