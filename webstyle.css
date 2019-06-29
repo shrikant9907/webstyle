@@ -2156,35 +2156,41 @@ p {
 /* Scroll Down */ 
 .mouse_scroll_down {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    width :34px;
-    height: 55px;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -20px;
 }
 .mouse_scroll_down .mouse {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid #fff;
+    width: 40px;
+    padding: 6px 16px;
+    height: 60px;
+    border: 2px solid rgba(0,0,0,0.8);
     border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
+    background: rgba(0,0,0,0.1);
 }
+
+.mouse_scroll_down .mouse.light {
+    border: 2px solid rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.1);
+}
+
 .mouse_scroll_down .scroller {
-    width: 3px;
-    height: 10px;
-    border-radius: 25%;
-    background-color: #fff;
+    width: 4px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #000;
     animation-name: scroll;
-    animation-duration: 2.2s;
+    animation-duration: 2s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);
     animation-iteration-count: infinite;
 }
+
+.mouse_scroll_down .mouse.light .scroller {
+   background: rgba(255,255,255);
+}
+
 @keyframes scroll {
-0% { opacity: 0; }
-10% { transform: translateY(0); opacity: 1; }
-100% { transform: translateY(15px); opacity: 0;}
+    0% { opacity: 0; }
+    12% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(20px); opacity: 0;}
 }
