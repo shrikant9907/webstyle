@@ -27,99 +27,99 @@ p {
 
 /*Background Colors*/
 .bg_grey {
-    background-color: #F1F1F1;
+    background-color: #F1F1F1 !important;
 }
 
 .bg_grey2 {
-    background-color: #F2F2F2;
+    background-color: #F2F2F2 !important;
 }
 
 .bg_purple {
-    background-color: #eb3941;
+    background-color: #eb3941 !important;
 }
 
 .bg_green {
-    background-color: #69b76d; 
+    background-color: #69b76d !important; 
 }
 
 .bg_blue {
-    background-color: #007bff; 
+    background-color: #007bff !important; 
 }
 
 .bg_indigo {
-    background-color: #6610f2; 
+    background-color: #6610f2 !important; 
 }
 
 .bg_purple {
-    background-color: #6f42c1; 
+    background-color: #6f42c1 !important; 
 }
 
 .bg_pink {
-    background-color: #e83e8c; 
+    background-color: #e83e8c !important; 
 }
 
 .bg_red {
-    background-color: #dc3545; 
+    background-color: #dc3545 !important; 
 }
 
 .bg_orange {
-    background-color: #fd7e14; 
+    background-color: #fd7e14 !important;
 }
 
 .bg_yellow {
-    background-color: #ffc107; 
+    background-color: #ffc107 !important;
 }
 
 .bg_green {
-    background-color: #28a745; 
+    background-color: #28a745 !important; 
 }
 
 .bg_teal {
-    background-color: #20c997; 
+    background-color: #20c997 !important;
 }
 
 .bg_cyan {
-    background-color: #17a2b8; 
+    background-color: #17a2b8 !important;
 }
 
 .bg_gray {
-    background-color: #6c757d; 
+    background-color: #6c757d !important;
 }
 
 .bg_gray_dark {
-    background-color: #343a40; 
+    background-color: #343a40 !important;
 }
 
 .bg_primary {
-    background-color: #007bff; 
+    background-color: #007bff !important;
 }
 
 .bg_secondary {
-    background-color: #6c757d; 
+    background-color: #6c757d !important;
 }
 
 .bg_success {
-    background-color: #28a745; 
+    background-color: #28a745 !important; 
 }
 
 .bg_info {
-    background-color: #17a2b8; 
+    background-color: #17a2b8 !important;
 }
 
 .bg_warning {
-    background-color: #ffc107; 
+    background-color: #ffc107 !important; 
 }
 
 .bg_danger {
-    background-color: #dc3545; 
+    background-color: #dc3545 !important;
 }
 
 .bg_light{
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa !important;
 }
 
 .bg_dark{
-    background-color: #343a40; 
+    background-color: #343a40 !important;
 }
  
 /*Heading Styles*/ 
