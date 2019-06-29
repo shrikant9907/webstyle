@@ -176,6 +176,147 @@ p {
     height: 3px;
 } 
 
+/*section*/
+.section_common_20 {
+    padding: 20px 0px;
+}
+ 
+.section_common_20_10 {
+    padding: 20px 0px 10px 0px;
+}
+
+.section_common_30 {
+    padding: 30px 0px;
+}
+
+.section_common_30_20{
+    padding: 30px 0px 20px 0px;
+}  
+
+.section_common_30_10{
+    padding: 30px 0px 10px 0px;
+}  
+
+.section_common_40 {
+    padding: 40px 0px;
+}  
+
+.section_common_40_30{
+    padding: 40px 0px 30px 0px;
+}  
+
+.section_common_40_20{
+    padding: 40px 0px 20px 0px;
+}  
+
+.section_common_40_10{
+    padding: 40px 0px 10px 0px;
+}  
+
+.section_common_50 {
+    padding: 50px 0px;
+}  
+
+.section_common_50_40 {
+    padding: 50px 0px 40px 0px;
+}  
+
+.section_common_50_30 {
+    padding: 50px 0px 30px 0px;
+}  
+
+.section_common_50_20 {
+    padding: 50px 0px 20px 0px;
+}  
+
+.section_common_50_10 {
+    padding: 50px 0px 10px 0px;
+}  
+
+.section_common_60 {
+    padding: 60px 0px;
+}  
+
+.section_common_60_50 {
+    padding: 60px 0px 50px 0px;
+}  
+
+.section_common_60_40 {
+    padding: 60px 0px 40px 0px;
+}  
+
+.section_common_60_30 {
+    padding: 60px 0px 30px 0px;
+}  
+
+.section_common_60_20 {
+    padding: 60px 0px 20px 0px;
+}  
+
+.section_common_60_10 { 
+    padding: 60px 0px 10px 0px;
+}  
+
+.section_common_70 {
+    padding: 70px 0px;
+}  
+
+.section_common_70_60 {
+    padding: 70px 0px 60px 0px;
+} 
+
+.section_common_70_50 {
+    padding: 70px 0px 50px 0px;
+}  
+
+.section_common_70_40 {
+    padding: 70px 0px 40px 0px;
+}  
+
+.section_common_70_30 {
+    padding: 70px 0px 30px 0px;
+}  
+
+.section_common_70_20 {
+    padding: 70px 0px 20px 0px;
+}  
+
+.section_common_70_10 {
+    padding: 70px 0px 10px 0px;
+}  
+
+.section_common_80 {
+    padding: 80px 0px;
+}  
+
+.section_common_80_70 {
+    padding: 80px 0px 70px 0px;
+} 
+
+.section_common_80_60 {
+    padding: 80px 0px 60px 0px;
+} 
+
+.section_common_80_50 {
+    padding: 80px 0px 50px 0px; 
+}  
+
+.section_common_80_40 {
+    padding: 80px 0px 40px 0px;
+}  
+
+.section_common_80_30 {
+    padding: 80px 0px 30px 0px;
+}  
+
+.section_common_80_20 {
+    padding: 80px 0px 20px 0px;
+}  
+
+.section_common_80_10 {
+    padding: 80px 0px 10px 0px;
+}  
+
 /*Padding*/
 .p_10 {
     padding:10px;
@@ -1193,148 +1334,6 @@ p {
     overflow: hidden;
     overflow-y: scroll !important; 
 }
-
-/*section*/
-.section_common_20 {
-    padding: 20px 0px;
-}
- 
-.section_common_20_10 {
-    padding: 20px 0px 10px 0px;
-}
-
-.section_common_30 {
-    padding: 30px 0px;
-}
-
-.section_common_30_20{
-    padding: 30px 0px 20px 0px;
-}  
-
-.section_common_30_10{
-    padding: 30px 0px 10px 0px;
-}  
-
-.section_common_40 {
-    padding: 40px 0px;
-}  
-
-.section_common_40_30{
-    padding: 40px 0px 30px 0px;
-}  
-
-.section_common_40_20{
-    padding: 40px 0px 20px 0px;
-}  
-
-.section_common_40_10{
-    padding: 40px 0px 10px 0px;
-}  
-
-.section_common_50 {
-    padding: 50px 0px;
-}  
-
-.section_common_50_40 {
-    padding: 50px 0px 40px 0px;
-}  
-
-.section_common_50_30 {
-    padding: 50px 0px 30px 0px;
-}  
-
-.section_common_50_20 {
-    padding: 50px 0px 20px 0px;
-}  
-
-.section_common_50_10 {
-    padding: 50px 0px 10px 0px;
-}  
-
-.section_common_60 {
-    padding: 60px 0px;
-}  
-
-.section_common_60_50 {
-    padding: 60px 0px 50px 0px;
-}  
-
-.section_common_60_40 {
-    padding: 60px 0px 40px 0px;
-}  
-
-.section_common_60_30 {
-    padding: 60px 0px 30px 0px;
-}  
-
-.section_common_60_20 {
-    padding: 60px 0px 20px 0px;
-}  
-
-.section_common_60_10 { 
-    padding: 60px 0px 10px 0px;
-}  
-
-.section_common_70 {
-    padding: 70px 0px;
-}  
-
-.section_common_70_60 {
-    padding: 70px 0px 60px 0px;
-} 
-
-.section_common_70_50 {
-    padding: 70px 0px 50px 0px;
-}  
-
-.section_common_70_40 {
-    padding: 70px 0px 40px 0px;
-}  
-
-.section_common_70_30 {
-    padding: 70px 0px 30px 0px;
-}  
-
-.section_common_70_20 {
-    padding: 70px 0px 20px 0px;
-}  
-
-.section_common_70_10 {
-    padding: 70px 0px 10px 0px;
-}  
-
-.section_common_80 {
-    padding: 80px 0px;
-}  
-
-.section_common_80_70 {
-    padding: 80px 0px 70px 0px;
-} 
-
-.section_common_80_60 {
-    padding: 80px 0px 60px 0px;
-} 
-
-.section_common_80_50 {
-    padding: 80px 0px 50px 0px;
-}  
-
-.section_common_80_40 {
-    padding: 80px 0px 40px 0px;
-}  
-
-.section_common_80_30 {
-    padding: 80px 0px 30px 0px;
-}  
-
-.section_common_80_20 {
-    padding: 80px 0px 20px 0px;
-}  
-
-.section_common_80_10 {
-    padding: 80px 0px 10px 0px;
-}  
-
 
 /*Hover Effects*/
 .hover_scale_11:hover {
