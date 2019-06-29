@@ -2156,7 +2156,7 @@ p {
 /* Scroll Down */ 
 .mouse_scroll_down {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 50%;
     margin-left: -20px;
 }
