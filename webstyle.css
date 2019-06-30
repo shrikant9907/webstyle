@@ -2336,3 +2336,19 @@ a {
 .scrolled .text-white {
     color:#343a40;
 } 
+
+
+/*Footer*/
+.footer_style1 ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer_style1 ul li {
+    padding: 5px 0;
+}
+
+.footer_style1 ul li a {
+    text-decoration: none;
+    color: #212121;
+}
