@@ -2,7 +2,7 @@
 /*      Created By: Shrikant Yadav              */  
 /*      Contact: shrikant9907@gmail.com         */
 /*      Web Developer and Desinger              */ 
-/*      Version: 1.5.0                          */    
+/*      Version: 1.5.1                          */    
  
 * {
     outline: none !important; 
@@ -1608,7 +1608,7 @@ a {
 
 .accordion_design1 .card {
     border:none;
-    border-bottom: 1px dashed #FF9671;
+    border-bottom: 1px dashed #007bff;
 	border-radius: 4px;
 }
  
@@ -1620,7 +1620,7 @@ a {
 
 .accordion_design1 .card-header .card-count {
     border-radius: 100%;
-    border: 1px solid #FF9671;
+    border: 1px solid #ffffff;
     width: 30px;
     display: inline-block;
     text-align: center;
@@ -1628,10 +1628,28 @@ a {
     font-size: 14px;
     margin-right: 8px;
     height: 30px;
+    color: #ffffff;
 }
 
 .accordion_design1 .card-header .card-title {
     font-weight: normal;
+}
+
+.accordion_design1 .card-header a {
+    text-decoration: none;
+    background: #007bff;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.accordion_design1 .card-header a.collapsed {
+    background: #f2f2f2;
+    color: #000;
+}
+
+.accordion_design1 .card-header a.collapsed .card-count {
+    border-color: #007bff;
+    color: #007bff;
 }
 
 .accordion_design1 .card-header h2, 
@@ -1641,24 +1659,6 @@ a {
     margin: 0px;
     font-size: 18px;
     line-height: 22px;
-}
-
-.accordion_design1 .card-body {
-	padding: 20px 15px;
-	display: none;
-}
-
-.accordion_design1 .card-body p {
-	margin: 0px;
-}
-
-.accordion_design1 .card.active .card-header {
-	background-color: #007bff;
-	color:#ffffff;
-}
-
-.accordion_design1 .card.active .card-body {
-	display:block;
 }
 
 .accordion_design1 .card.active .card-header .card-count  {

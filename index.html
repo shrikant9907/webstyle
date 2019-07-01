@@ -21,52 +21,59 @@
 <div class="container">
 	<div class="row">
 		<div class="col-12"><h2 class="text-center mb-5">Accordions</h2></div>
-		<div class="col-12 col-md-6">
+		<div class="col-12">
 
 			<h2>Accordion Design 1 (Custom)</h2>	
 
 			<!-- Accordion Start -->
 			<div class="accordion accordion_design1">
 
-				<!-- Card 1 Start -->
 				<div class="card">
-					<div class="card-header">
-						<h3><span class="card-count">1</span> <span class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing </span></h3>
+					<div class="card-header p-0" role="tab" id="heading1">
+						<h3 class="m-0 position-relative">
+							<a class="p-3 d-block" href="#collapse_design11" data-toggle="collapse" data-parent="#accordion2" aria-expanded="true" aria-controls="collapse_design11"><span class="card-count">1</span> <span class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing </span> <i class="fas fa-caret-down position-absolute d-none"></i> <i class="fas fa-caret-left position-absolute d-none"></i></a>
+						</h3>
 					</div>
-					<div class="card-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. </p>
+					<div class="collapse show" id="collapse_design11" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion2">
+					  	<div class="card-body">
+						  	<p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					  	</div>	
 					</div>
 				</div>	
-				<!-- Card 1 End -->
 
-				<!-- Card 2 Start -->
-				<div class="card active">
-					<div class="card-header">
-						<h3><span class="card-count">1</span> <span class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing </span></h3>
-					</div>
-					<div class="card-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. </p>
-					</div>
-				</div>	
-				<!-- Card 2 End -->
-
-				<!-- Card 3 Start -->
+			
 				<div class="card">
-					<div class="card-header">
-						<h3><span class="card-count">1</span> <span class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing </span></h3>
+					<div class="card-header p-0" role="tab" id="heading2">
+					 	<h4 class="m-0 md-accordion-0 position-relative">
+							<a class="p-3 collapsed d-block" href="#collapse_design12" data-toggle="collapse" data-parent="#accordion2" aria-expanded="false" aria-controls="collapse_design12"><span class="card-count">2</span> Lorem ipsum dolor sit amet, consectetur <i class="fas fa-caret-down position-absolute d-none"></i> <i class="fas fa-caret-left position-absolute d-none"></i></a>
+						</h4>
 					</div>
-					<div class="card-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. </p>
+					<div class="collapse " id="collapse_design12" role="tabpanel" aria-labelledby="heading2" data-parent="#accordion2">
+					  	<div class="card-body">
+							<p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>	
 					</div>
 				</div>
-				<!-- Card 3 End -->
+			
+				<div class="card">
+					<div class="card-header p-0" role="tab" id="heading3">
+						<h4 class="m-0 position-relative">
+							<a class="p-3 collapsed d-block" href="#collapse_design13" data-toggle="collapse" data-parent="#accordion2" aria-expanded="false" aria-controls="collapse_design13"><span class="card-count">3</span> Lorem ipsum dolor sit amet, consectetur <i class="fas fa-caret-down position-absolute d-none"></i> <i class="fas fa-caret-left position-absolute d-none"></i></a>
+						</h4>	
+					</div>
+					<div class="collapse " id="collapse_design13" role="tabpanel" aria-labelledby="heading3" data-parent="#accordion2">
+					  	<div class="card-body">
+							<p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>	
+					</div>
+				</div>
 
 			</div>
 			<!-- Accordion End -->
 
 		</div>
 
-		<div class="col-12 col-md-6">
+		<div class="col-12">
 			<h2>Accordion Design 2 (Bootstrap)</h2>
 
 			<!-- Accordion Start -->
@@ -115,7 +122,7 @@
 						
 		</div>
 
-		<div class="col-12 col-md-6">
+		<div class="col-12">
 			<h2>Accordion Design 3 (Bootstrap)</h2>
 			<!-- Accordion Start  -->
 			<div class="accordion accordion_design3 mb-5" id="accordion3" role="tablist" aria-multiselectable="true">
@@ -259,6 +266,7 @@
 	</div>
 	<!-- Row End -->
 
+
 	<!-- Row Start -->
 	<div class="row">
 
@@ -365,6 +373,21 @@
 			</div>
 			<!-- Card End -->
 		</div>
+
+		<div class="col-12 col-md-6">
+			<div class="card card_team1 text-center mb-5">
+				<div class="card-header bg-white">
+					<div class="img_circle"><img src="images/user_logo.png" class="images"></div>
+				</div>
+					<div class="card-body">
+						<div class="card-title"> Shrikant Yadav </div>
+						<p class="card-text mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<div class="separator"></div>	
+						<small class="designation text-muted">- Software Developer</small>
+					</div>
+			</div>
+		</div>
+
 	</div>
 	<!-- Row End -->
 
@@ -783,21 +806,7 @@
 	<!-- Pricing Table 5 -->
 
 	<div class="mb-5"></div>
-	<!-- Row Start -->
-	<div class="row">
-		<div class="col-12 col-md-6">
-			<div class="card card_team1 text-center mb-5">
-				<div class="card-header bg-white">
-					<div class="img_circle"><img src="images/user_logo.png" class="images"></div>
-				</div>
-					<div class="card-body">
-						<div class="card-title"> Shrikant Yadav </div>
-						<div class="separator"></div>	
-						<small class="designation text-muted">- Software Developer</small>
-					</div>
-			</div>
-		</div>
-	</div>
+
 
 	<!-- Row Start -->
 	<div class="row">
