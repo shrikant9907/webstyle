@@ -2370,6 +2370,10 @@ a {
 
 /*Mobile Responsive*/ 
 @media all and (max-width: 500px) {
+
+    .header_menus .nav-link {
+        color: #212121 !important;
+    }
     
     .col,
     .col-3,
