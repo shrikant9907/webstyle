@@ -2401,8 +2401,8 @@ a {
     }
     
     
-    #main_header {
-    position: relative !important;
+    header#main_header { 
+        position: absolute; !important;
     }
     
     .logo_wr {
